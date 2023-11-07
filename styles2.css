@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px red solid;
+}
+
+.logo {
+    border: 1px red solid;
+    margin: 40px;
+}
+.logo img {
+    border: 1px red solid;
+    margin: 10px;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px red solid;
+    margin-right: 50px;
+    gap: 20px;
+}
+.enlaces ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    padding-right: 85px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.imagenProtector {
+    margin: 10px;
+    height: 600px;
+    border: 1px red solid;
+    background: url(./imagen-protector.webp);
+    background-size: 100%;
+}
+
+.imagenProtector img {
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(./Futura\ Book\ font.ttf);
+}
+
+li {
+    color: rgba(0, 157, 149, 1);
+    font-size: 16px;
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    margin: 20px;
+    border: 1px red solid;
+
+}
+
+p {
+    color: white;
+}
+
+.icono img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 480px) {
+    li {
+        color:brown;
+    }
+}
+
+@media (max-width: 768px) {
+    .enlaces ul {
+        display:none;
+    }
+}
+
+@media (min-width: 768px) {
+    select {
+        display:none;
+    }
+}

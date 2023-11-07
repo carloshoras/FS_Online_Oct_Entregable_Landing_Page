@@ -1,0 +1,88 @@
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin: 40px;
+}
+.logo img {
+    margin: 10px;
+}
+
+.iconos {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+    gap: 20px;
+}
+.enlaces ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 85px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.imagenProtector {
+    display: flex;
+    margin: 10px;
+    height: 600px;
+    background: url(./imagen-protector.webp);
+    background-size: 100%;
+}
+
+.imagenProtector img {
+    height:100%;
+    width:100%;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(./Futura\ Book\ font.ttf);
+}
+
+li {
+    color: rgba(0, 157, 149, 1);
+    font-size: 16px;
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    margin: 20px;
+
+}
+
+p {
+    color: white;
+}
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.icono img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 480px) {
+    li {
+        color:brown;
+    }
+}
+
+@media (max-width: 768px) {
+    .enlaces ul {
+        display:none;
+    }
+}
+
+@media (min-width: 768px) {
+    select {
+        display:none;
+    }
+}
